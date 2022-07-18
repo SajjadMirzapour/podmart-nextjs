@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Iran Yekan";
+    direction: rtl;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: "Iran Yekan";
+    src: url("../public/fonts/VazirWeb.woff");
+}
+
+.login {
+    background-image: url("../public/images/login_bg.jpg");
+    background-size: 100% 100%;
+}
+
+@media (max-width: 768px) {
+    .unlimited {
+        background-image: url("../public/images/bg-pod2.jpg");
+        background-size: 100% 770px;
+        height: 770px;
+    }
+}
+
+@media (min-width: 768px) {
+    .unlimited {
+        background-image: url("../public/images/bg-pod.png");
+        background-size: 100% 770px;
+        height: 770px;
+    }
+}
+
+.modal {
+    background-image: url("../public/images/bg_for_modal.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    /* overflow-y: hidden; */
+
+    /* background-attachment: fixed; */
+}
+
+.inputModal {
+    /* mb-4 bg-[#f7f9fc] border border-[#ebeef3] w-full p-[6px] rounded-md */
+    margin-bottom: 16px;
+    background-color: #f7f9fc;
+    border: 1px solid #ebeef3;
+    width: 100%;
+    padding: 6px;
+    border-radius: 6px;
+    outline: 0;
+}
+
+.newSelect {
+    background-color: blue;
+}
+
+.connection {
+    background-image: url("../public/images/backGround.png"),
+        linear-gradient(-45deg, rgba(4, 40, 51, 1) 0%, rgba(5, 28, 51, 1) 100%);
+    color: white;
+    /* linear-gradient(-45deg, rgba(4, 40, 51, 1) 0%, rgba(5, 28, 51, 1) 100%); */
+}
+
+/* *MuiButtonBase-root {
+    padding: 0px !important;
+}
+
+*long-button {
+    padding: 0px !important;
+} */

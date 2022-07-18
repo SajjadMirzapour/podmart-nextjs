@@ -1,0 +1,7 @@
+export { default as Atracctive } from './attractive/Atrractive'
+export { default as Connection } from './connection/Connection'
+export { default as Managment } from './managment/Managment'
+export { default as Slider } from './slider/Slider'
+export { default as Steps } from './steps/Step'
+export { default as Suitable } from './suitable/Suitable'
+export { default as Unlimited } from './unlimited/Unlimited'
