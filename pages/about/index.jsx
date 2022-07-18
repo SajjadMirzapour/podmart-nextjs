@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import { About } from 'src/views';
 
 export default function AboutPage() {
